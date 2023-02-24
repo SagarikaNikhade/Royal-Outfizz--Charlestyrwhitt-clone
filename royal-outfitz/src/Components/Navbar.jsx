@@ -7,7 +7,8 @@ function Navbar(){
         {path:"/login" , title:"Login"},
         {path:"/search" , title:"Search"}, 
         {path:"/bag" , title:"Bag"},
-        {path:"/register", title:"Register"}
+        {path:"/register", title:"Register"},
+        {path:"/product", title:"Product"}
         ]
         
     return (

@@ -4,9 +4,9 @@ import Home from "../Pages/Home";
 import Bag from "../Pages/Bag";
 import Login from "../Pages/Login";
 import NotFound from "../Pages/NotFound";
-import ProductCard from "../Pages/ProductCard";
 import Search from "../Pages/Search";
 import Register from "../Pages/Register";
+import SingleProduct from "../Pages/SingleProduct";
 
 function AllRoutes(){
   return (
@@ -18,9 +18,10 @@ function AllRoutes(){
         <Route path="/search" element={<Search/>}></Route>
         <Route path="/register" element={<Register/>}></Route>
         <Route path="/product" element={<Product/>}></Route>
-        <Route path="/ProductCard/:id" element={<ProductCard/>}></Route>
+        <Route path="/SingleProduct/:id" element={<SingleProduct/>}></Route>
     </Routes>
   ) 
 }
+
 
 export default AllRoutes;
