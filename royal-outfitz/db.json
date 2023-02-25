@@ -448,5 +448,8 @@
              "category":"accessories",
              "description":"This multipack contains three pairs of cotton-stretch jersey underwear. Made with high quality cotton fibres and boasting a super soft feel, they are supportive, soft on the skin, and have an elasticated waistband for comfort."
         }
-    ]
+    ],
+    "register": [
+        { }
+      ]
 }
