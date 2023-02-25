@@ -2,10 +2,9 @@ import React, { useEffect, useReducer, useState } from "react";
 import axios from "axios";
 import { Stack, Box, Heading, Container, Button,ButtonGroup, Spacer, Grid, GridItem, Select, Image, Flex, Center, Text, Square,} from '@chakra-ui/react';
 import ProductCard from "./ProductCard";
-import { useSearchParams } from "react-router-dom";
 
 const initialstate = {
-  products: [],
+  product: [],
   isLoading: false,
   isError: false,
 };
@@ -21,14 +20,14 @@ const reducerFn = (state, action) => {
     case "fetch_success":
       return {
         ...state,
-        products: action.payload,
+        product: action.payload,
         isLoading: false,
         isError: false,
       };
     case "fetch_failure":
       return {
         ...state,
-        products: [],
+        product: [],
         isLoading: false,
         isError: action.payload,
       };
@@ -39,61 +38,42 @@ const reducerFn = (state, action) => {
 
 function Product() {
   const [state, dispatch] = useReducer(reducerFn, initialstate);
-  const { products, isLoading, isError } = state;
-  const [searchParam , setSearchParam] = useSearchParams();
+  const { product, isLoading, isError } = state;
   const [page, setPage] = useState(1);
-  const [sortby , setSortBy]=useState("");
-  const [filterby , setFilterBy]=useState("");
-  const sort="price";
-  const limit=12;
+  const [order , setOrder] = useState("");
+  const [post , setPost] = useState(product);
 
-useEffect(()=>{
-  let apiUrl;
-        if(sortby){
-            apiUrl = `http://localhost:8080/cloths?_page=${page}&_limit=${limit}&_sort=${sort}&_order=${sortby}`;
-        }else if(filterby){
-            apiUrl = `http://localhost:8080/cloths?_page=${page}&_limit=${limit}&_sort=${sort}&_order=${sortby}&category=${filterby}`;
-        }
-        else{
-            apiUrl = `http://localhost:8080/cloths?_page=${page}&_limit=${limit}`;
-        }
-  // const getData = (apiUrl) => {
-    dispatch({ type: "fetch_request" });
-     axios.get(apiUrl)
-    // axios.get(`  http://localhost:8080/cloths?_sort=${sort}&_order={sortby}`)
-      .then((res) => {
-        dispatch({ type: "fetch_success", payload: res.data });
-        // console.log(res.data);
-      })
-      .catch((err) =>
-        dispatch({ type: "fetch_failure", payload: err.message })
-      )
-  // };
-},[page , sortby , filterby])
-  // useEffect(() => {
-  //   getData()
-  // }, [page]);
-
-  // useEffect(()=>{
-  //   if(sortby === "asc"){
-  //     const arr = products.sort((a,b)=> a.price - b.price)
-  //     setpost(...arr)
-  //   }else if(sortby === "desc"){
-  //     const arr = products.sort((a,b)=> b.price - a.price)
-  //     setpost(...arr)
-  //   }
-  // },[sortby])
+  const getData = () =>{
+    dispatch({type:"fetch_request"});
+    axios.get(`http://localhost:8080/cloths?_page=${page}&_limit=12`)
+    .then((res)=>{
+       dispatch({type:"fetch_success" , payload:res.data});
+      //  console.log(res.data)
+      // setData(res.data)
+    })
+    .catch((err)=>
+    dispatch({type:"fetch_failure" , payload:err.message})
+    )
+  };
+  //  console.log(product)
   useEffect(()=>{
-    let paramObj={page,sortby};
-    if(sortby){
-     paramObj.sortby = sortby;
+    getData()
+  },[page])
+  // console.log(product)
+
+  useEffect(()=>{
+    if(order === "asc"){
+      const arr = product.sort((a,b)=>a.price - b.price);
+      setPost(...arr);
+      console.log(arr)
     }
-    if(filterby){
-     paramObj.filterby = filterby;
+    else if(order === "desc"){
+      const arr = product.sort((a,b)=>b.price - a.price);
+      setPost(...arr);
+      console.log(arr)
     }
-    setSearchParam(paramObj)
- },[page , sortby , filterby])
-  //  console.log(products);
+  },[order])
+  // console.log(product);
 
   return (
     <>
@@ -123,9 +103,11 @@ useEffect(()=>{
           <Select placeholder='SORT BY' backgroundColor="#eeeeef">
             <option value='recommended'>RECOMMENDED</option>
             <option value='toprated'>TOP RATED</option>
-            <option value='HTL' onClick={()=>setSortBy("desc")}>PRICE HIGH TO LOW</option>
-            <option value='LTH' onClick={()=>setSortBy("asc")}>PRICE LOW TO HIGH</option>
-          </Select>
+            </Select>
+            <Button  onClick={()=>setOrder("desc")}>PRICE HIGH TO LOW</Button>
+            <br/>
+            <Button  onClick={()=>setOrder("asc")}>PRICE LOW TO HIGH</Button>
+         
         </Box>
       </Flex>
       <Container maxW='100%'>
@@ -177,8 +159,8 @@ useEffect(()=>{
           </Square>
           <Center w='80%' >
             <Grid templateColumns="repeat(4,1fr)" gap={6}>
-              {products?.length &&
-                products.map((el) => (
+              {product?.length &&
+                product.map((el) => (
                   <GridItem key={el.id}>
                     <ProductCard
                       id={el.id}
