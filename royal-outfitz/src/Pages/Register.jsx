@@ -1,4 +1,4 @@
-import React, { useState , useEffect} from 'react';
+import React, { useState} from 'react';
 import { Stack, Input, InputGroup, Button, HStack, Box, Heading, FormLabel, } from '@chakra-ui/react';
 import axios from "axios";
 
@@ -18,13 +18,14 @@ function Register() {
           ...formdata,
         }).then((res)=>console.log(res))
       }
-
+//    console.log(formdata);
 
     return (
         <div >
             <Heading>Create account</Heading>
             <HStack justifyContent="space-evenly" marginTop="30px" marginBottom="50px">
                 <Box width='80%' height="auto" marginLeft="200px">
+                    <form onSubmit={handleSubmit}>
                     <Stack spacing={3} >
                         <FormLabel >First Name </FormLabel>
                         <Input className="name" placeholder="FirstName" type="text" value={formdata.firstName} onChange={(e)=>setformData({...formdata, firstName:e.target.value})}/>
@@ -43,6 +44,7 @@ function Register() {
                             CREATE AN ACCOUNT
                         </Button>
                     </Stack>
+                    </form>
                 </Box>
                 <br/>
                 <Box width='80%' height="300px">
@@ -53,7 +55,7 @@ function Register() {
                     <HStack>
                         <Button  height='48px' width='400px' border='1px solid black' backgroundColor='#001f48' color="white">
                             <a href="./login">CLICK HERE TO LOG IN</a>
-                        </Button>
+                        </Button >
                     </HStack>
                 </Box>
             </HStack>

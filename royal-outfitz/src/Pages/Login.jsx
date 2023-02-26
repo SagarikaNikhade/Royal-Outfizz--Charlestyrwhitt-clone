@@ -1,6 +1,6 @@
 import React from 'react';
 import { Stack, Input, InputGroup, InputRightElement, Button, HStack, Box, Heading, Text, FormLabel, Image } from "@chakra-ui/react";
-import react, { createContext, useState, useContext } from "react";
+import {  useState, useContext } from "react";
 import { AuthContext } from "../context/AuthContextProvider";
 import { Navigate } from "react-router-dom";
 import axios from "axios";
@@ -15,7 +15,7 @@ const Login = () => {
   const handleLogin = () =>{
     axios({
         method : "post",
-        url : "https://reqres.in/api/login",
+        url : "http://localhost:8080/register",
         data : {
             email,
             password,
