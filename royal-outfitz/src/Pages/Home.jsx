@@ -1,26 +1,20 @@
-import { AspectRatio, Box, Image, Grid, Button, Text, Stack, Heading, CardBody, Card, Center, GridItem } from "@chakra-ui/react";
+import { Box, Image, Grid, Button, Text, Stack, Heading, CardBody, Card, Center, GridItem } from "@chakra-ui/react";
+import styles from "./Home.module.css";
+import React from "react";
+
 function Home() {
     return (
         <div>
-            <h1>Home Page</h1>
-            {/* <AspectRatio maxW='1500px' ratio={1} border="5px solid yellow" display="block" height="400px">
-                <iframe
-                    border="5px solid red"
-                    title='naruto'
-                    src='https://player.vimeo.com/progressive_redirect/playback/794475762/rendition/720p/file.mp4?loc=external&signature=e44109bc16e899b63407050b0ef3de6b4d340b7c275c3f287ae846c21642e404' alt='Dan Abramov'
-                    allowFullScreen
-                />
-            </AspectRatio> */}
-            
-            <Box maxW='1500px' marginTop="30px">
-                <Image src='https://www.charlestyrwhitt.com/on/demandware.static/-/Library-Sites-CTShirtsSharedLibrary/default/dw0c60e00a/merchAssets/SS23/Homepage/hero/febshirts-hero-desktop.jpg' alt='Dan Abramov' />
-            </Box>
+            <article className={styles.article}>
+                <img className={styles.image} src='https://www.charlestyrwhitt.com/on/demandware.static/-/Library-Sites-CTShirtsSharedLibrary/default/dw0c60e00a/merchAssets/SS23/Homepage/hero/febshirts-hero-desktop.jpg' alt="background" />
+                <h1 className={styles.header}>Timeless Classics</h1>
+            </article>
 
-            <Box maxW='1500px' marginTop="30px">
+            {/* <Box w='100%' marginTop="30px">
                 <Image src='https://www.charlestyrwhitt.com/on/demandware.static/-/Library-Sites-CTShirtsSharedLibrary/default/dw73d084aa/merchAssets/SS23/Homepage/hp/henley-hp2-desktop.jpg' alt='Dan Abramov' />
-            </Box>
+            </Box> */}
 
-            <Grid templateColumns='repeat(2, 1fr)' gap={6} border="1px solid black" maxW='100%' >
+            <Grid templateColumns='repeat(2, 1fr)' gap={6} maxW='100%' >
                 <Card width='100%' >
                     <CardBody>
                         <Image
@@ -40,7 +34,7 @@ function Home() {
                             </Center>
                             <Center>
                                 <Button height='48px' width='400px' border='1px solid black' backgroundColor="white">
-                                    SHOP NOW
+                                  <a href="/product"> SHOP NOW</a>
                                 </Button>
                             </Center>
                         </Stack>
@@ -72,7 +66,7 @@ function Home() {
                         </Stack>
                     </CardBody>
                 </Card>
-<Card width='100%' >
+                <Card width='100%' >
                     <CardBody>
                         <Image
                             src='https://www.charlestyrwhitt.com/on/demandware.static/-/Library-Sites-CTShirtsSharedLibrary/default/dwe856ec10/merchAssets/SS23/Homepage/Editorial/hp1-editorial-TL-desktop.jpg'
@@ -117,7 +111,7 @@ function Home() {
                             </Center>
                             <Center>
                                 <Button height='48px' width='400px' border='1px solid black' backgroundColor="white">
-                                    SHOP NOW
+                                <a href="/product"> SHOP NOW</a>
                                 </Button>
                             </Center>
                         </Stack>
@@ -129,8 +123,7 @@ function Home() {
                 <Image src='https://www.charlestyrwhitt.com/on/demandware.static/-/Library-Sites-CTShirtsSharedLibrary/default/dw5f179d60/merchAssets/AW22/Homepage/wide-banner/custom-hp2-desktop01.jpg' alt='Dan Abramov' />
             </Box>
 
-Lopa, [22-02-2023 23:34]
-<Grid templateColumns='repeat(4, 1fr)' gap={20} backgroundColor="#f5f5f5" marginTop="30px">
+            <Grid templateColumns='repeat(4, 1fr)' gap={20} backgroundColor="#f5f5f5" marginTop="30px" marginBottom='30px'>
                 <GridItem >
                     <Center>
                         <Image width="100px" src='https://www.charlestyrwhitt.com/on/demandware.static/Sites-CTShirts-UK-Site/-/default/dwbbd2b2c7/images/icons-large/click-and-collect.svg' alt='error' />
@@ -143,7 +136,7 @@ Lopa, [22-02-2023 23:34]
                         <Text size="18px">We are proud to be Carbon Neutral with Planet Mark</Text>
                     </Center>
                 </GridItem>
-                <GridItem >
+                <GridItem>
                     <Center>
                         <Image width="100px" src='https://www.charlestyrwhitt.com/on/demandware.static/Sites-CTShirts-UK-Site/-/default/dwbbd2b2c7/images/icons-large/click-and-collect.svg' alt='error' />
                     </Center>

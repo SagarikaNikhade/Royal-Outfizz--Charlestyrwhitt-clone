@@ -4,7 +4,6 @@ import Home from "../Pages/Home";
 import Bag from "../Pages/Bag";
 import Login from "../Pages/Login";
 import NotFound from "../Pages/NotFound";
-import Search from "../Pages/Search";
 import Register from "../Pages/Register";
 import SingleProduct from "../Pages/SingleProduct";
 
@@ -15,7 +14,6 @@ function AllRoutes(){
         <Route path="/bag" element={<Bag/>}></Route>
         <Route path="/login" element={<Login/>}></Route>
         <Route path="*" element={<NotFound/>}></Route>
-        <Route path="/search" element={<Search/>}></Route>
         <Route path="/register" element={<Register/>}></Route>
         <Route path="/product" element={<Product/>}></Route>
         <Route path="/SingleProduct/:id" element={<SingleProduct/>}></Route>

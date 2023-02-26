@@ -1,6 +1,6 @@
 import React, { useEffect, useReducer, useState } from "react";
 import axios from "axios";
-import { Stack, Box, Heading, Container, Button,ButtonGroup, Spacer, Grid, GridItem, Select, Image, Flex, Center, Text, Square,} from '@chakra-ui/react';
+import { Stack,HStack, Box, Heading, Container, Button,ButtonGroup, Spacer, Grid, GridItem, Select, Image, Flex, Center, Text, Square,} from '@chakra-ui/react';
 import ProductCard from "./ProductCard";
 
 const initialstate = {
@@ -100,14 +100,10 @@ function Product() {
       <Flex>
         <Spacer />
         <Box w="20%" borderBottom="1px solid black" marginBottom="10px">
-          <Select placeholder='SORT BY' backgroundColor="#eeeeef">
-            <option value='recommended'>RECOMMENDED</option>
-            <option value='toprated'>TOP RATED</option>
-            </Select>
-            <Button  onClick={()=>setOrder("desc")}>PRICE HIGH TO LOW</Button>
-            <br/>
-            <Button  onClick={()=>setOrder("asc")}>PRICE LOW TO HIGH</Button>
-         
+          <HStack>
+            <Button  backgroundColor="#eeeeef" onClick={()=>setOrder("desc")}>PRICE HIGH TO LOW</Button>
+            <Button backgroundColor="#eeeeef" onClick={()=>setOrder("asc")}>PRICE LOW TO HIGH</Button>
+          </HStack>
         </Box>
       </Flex>
       <Container maxW='100%'>

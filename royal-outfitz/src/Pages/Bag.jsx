@@ -3,7 +3,7 @@ import React from 'react'
 const Bag = () => {
   return (
     <div>
-      <h1>Bag</h1>
+      <h1> Welcom to Bag Page</h1>
     </div>
   )
 }

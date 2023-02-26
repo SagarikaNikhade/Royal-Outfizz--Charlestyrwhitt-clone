@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
-import { Link, Image, Text, Button, Heading, CardFooter, CardBody,Stack, Card,Box, Center,UnorderedList,ListItem } from '@chakra-ui/react';
+import { Image, Text, Button, Heading, CardBody,Stack, Card,Box, Center,UnorderedList,ListItem } from '@chakra-ui/react';
 
 const getData = (url) => {
   return fetch(url)
