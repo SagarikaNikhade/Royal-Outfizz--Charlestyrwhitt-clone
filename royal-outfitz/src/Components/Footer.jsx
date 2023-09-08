@@ -1,4 +1,3 @@
-
 import { Stack, Heading, Input, Button, HStack, Text, Center, Image } from "@chakra-ui/react";
 import { PhoneIcon, LockIcon } from '@chakra-ui/icons';
 
@@ -63,7 +62,6 @@ function Footer() {
                     <Text fontSize='sm' color='grey'>OUR BELIEFS</Text>
                     <Text fontSize='sm' color='grey'>OUR BENEFITS</Text>
                     <Text fontSize='sm' color='grey'>OUR PEOPLE</Text>
-                    <PhoneIcon />
                 </Stack>
             </div>
             <Center h='100px' fontSize='sm' color='black'><LockIcon />Shopping is secure with Charles Tyrwhitt.</Center>

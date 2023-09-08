@@ -1,6 +1,7 @@
 import React, { useState} from 'react';
 import { Stack, Input, InputGroup, Button, HStack, Box, Heading, FormLabel, } from '@chakra-ui/react';
 import axios from "axios";
+import { Link} from "react-router-dom";
 
 function Register() {
 
@@ -16,7 +17,10 @@ function Register() {
         e.preventDefault();
         axios.post(`http://localhost:8080/register`,{
           ...formdata,
-        }).then((res)=>console.log(res))
+        }).then((res)=>{
+            alert("register successfully!")
+            window.location.href="/login"
+    })
       }
 //    console.log(formdata);
 
@@ -54,7 +58,7 @@ function Register() {
                     <br />
                     <HStack>
                         <Button  height='48px' width='400px' border='1px solid black' backgroundColor='#001f48' color="white">
-                            <a href="./login">CLICK HERE TO LOG IN</a>
+                            <Link to="/login">CLICK HERE TO LOG IN</Link>
                         </Button >
                     </HStack>
                 </Box>

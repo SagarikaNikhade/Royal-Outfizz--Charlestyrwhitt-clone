@@ -11,7 +11,7 @@ function ProductCard({id, category , title, image, price, description}){
                     <Stack>
                         <Text>{category}</Text>
                         <Text>{title}</Text>
-                        <Text>{price}</Text>
+                        <Text>£{price}</Text>
                         <Text>{description}</Text>
                     </Stack>
                 </Box>            

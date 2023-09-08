@@ -1,37 +1,33 @@
 import React from 'react';
 import { Stack, Input, InputGroup, InputRightElement, Button, HStack, Box, Heading, Text, FormLabel, Image } from "@chakra-ui/react";
-import {  useState, useContext } from "react";
-import { AuthContext } from "../context/AuthContextProvider";
-import { Navigate } from "react-router-dom";
+import {  useState } from "react";
 import axios from "axios";
+import { Link } from 'react-router-dom';
 
 const Login = () => {
-  const { login, isAuth } = useContext(AuthContext);
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [show, setShow] = React.useState(false)
   const handleClick = () => setShow(!show)
 
   const handleLogin = () =>{
-    axios({
-        method : "post",
-        url : "http://localhost:8080/register",
-        data : {
-            email,
-            password,
-        },
-    }).then((res)=> {
-        console.log(res)
-        login(res.data.token);
-        console.log(res.data.token);
-    })
-};
-
-if(isAuth){
-    return <Navigate to="/"/>
-}
-
-  return (
+        axios.get("http://localhost:8080/register")
+        .then((res) => {
+          const userData = res.data;
+          const matchingUserData = userData.find(user => user.email === email && user.password === password);
+          
+          if (matchingUserData) {
+            alert("Login successful");
+            window.location.href="/"
+          } else {
+            alert("Login failed");
+          }
+        })
+        .catch((err) => {
+          alert("Login failed");
+        });
+    };
+    return (
     <div >
       <Heading>My account</Heading>
       <HStack justifyContent="space-evenly" marginTop="30px" marginBottom="50px">
@@ -84,7 +80,7 @@ if(isAuth){
           <br />
           <HStack>
             <Button height='48px' width='400px' border='1px solid black' backgroundColor='#001f48' color="white">
-              <a href="./register">CREATE AN ACCOUNT NOW</a>
+              <Link to='/register'>CREATE AN ACCOUNT NOW</Link>
             </Button>
           </HStack>
         </Box>
@@ -93,4 +89,4 @@ if(isAuth){
   )
 }
 
-export default Login;
+export default Login

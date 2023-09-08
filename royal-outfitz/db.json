@@ -3,450 +3,506 @@
     {
       "id": 1,
       "title": "Proper Blazer - Navy",
-      "price": "£199.95",
+      "price": 199.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw9b1d20fa/hi-res/SEF0270NAV_MODEL_FRONT.jpg?sw=600&sh=750",
       "category": "casual coat",
-      "description": "Go out in a blazer of glory. Our versatile new Merino wool jacket is designed to be worn equally at home, in the office or to a restaurant."
+      "description": "Go out in a blazer of glory. Our versatile new Merino wool jacket is designed to be worn equally at home, in the office or to a restaurant.",
+      "color": "black"
     },
     {
       "id": 2,
       "title": "Proper Blazer - Indigo Blue",
-      "price": "£199.95",
+      "price": 199.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw426eb4b2/hi-res/SEF0294IDG_MODEL_FRONT.jpg?sw=430&sh=540",
       "category": "casual coat",
-      "description": "Go out in a blazer of glory. Our versatile new Merino wool jacket is equally at home at the office or in a restaurant."
+      "description": "Go out in a blazer of glory. Our versatile new Merino wool jacket is equally at home at the office or in a restaurant.",
+      "color": "blue"
     },
     {
       "id": 3,
       "title": "Herringbone Wool Texture Jacket - Denim Blue",
-      "price": "£229.95",
+      "price": 229.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw70506f3c/hi-res/SEF0273DEN_MODEL_FRONT.jpg?sw=430&sh=540",
       "category": "casual coat",
-      "description": "This textured wool jacket brings a traditional feel to your look, while giving you a breathable, mid-weight layer."
+      "description": "This textured wool jacket brings a traditional feel to your look, while giving you a breathable, mid-weight layer.",
+      "color": "green"
     },
     {
       "id": 4,
       "title": "Merino Funnel Neck Jacket - Navy",
-      "price": "£129.95",
+      "price": 129.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw407f004d/hi-res/KNC0087NAV_MODEL_FRONT.jpg?sw=600&sh=750",
       "category": "casual coat",
-      "description": "Who said smart dressing was only for formal events? We've taken a new spin on classic tailoring with this casual blazer."
+      "description": "Who said smart dressing was only for formal events? We've taken a new spin on classic tailoring with this casual blazer.",
+      "color": "blue"
     },
     {
       "id": 5,
       "title": "Herringbone Wool Texture Jacket - Taupe",
-      "price": "£229.95",
+      "price": 229.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dwa30504e4/hi-res/SEF0296TPE_MODEL_FRONT.jpg?sw=430&sh=540",
       "category": "casual coat",
-      "description": "This textured wool jacket brings a traditional feel to your look, while giving you a breathable, mid-weight layer."
+      "description": "This textured wool jacket brings a traditional feel to your look, while giving you a breathable, mid-weight layer.",
+      "color": "brown"
     },
     {
       "id": 6,
       "title": "Linen Jacket - Stone",
-      "price": "£249.95",
+      "price": 249.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dwfe241823/hi-res/SEU0220TAN_MODEL_FRONT.jpg?sw=430&sh=540",
       "category": "casual coat",
-      "description": "Consider our linen jacket the perfect warm-weather companion - it's lightweight, comfortable, and has you looking great."
+      "description": "Consider our linen jacket the perfect warm-weather companion - it's lightweight, comfortable, and has you looking great.",
+      "color": "blue"
     },
     {
       "id": 7,
       "title": "Linen Cotton Jacket - Taupe",
-      "price": "£199.95",
+      "price": 199.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dwd3d5d7db/hi-res/SEF0299TPE_MODEL_FRONT.jpg?sw=430&sh=540",
       "category": "casual coat",
-      "description": "Need an all-year-round layer to smarten casual ensembles? Look no further than our Linen Cotton Jacket."
+      "description": "Need an all-year-round layer to smarten casual ensembles? Look no further than our Linen Cotton Jacket.",
+      "color": "black"
     },
     {
       "id": 8,
       "title": "Wool Overcoat - Navy",
-      "price": "£199.95",
+      "price": 199.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw51157bef/hi-res/OUF0068NAV_MODEL_FRONT.jpg?sw=430&sh=540",
       "category": "casual coat",
-      "description": "The flattering single-breasted shape has a three-button closure and combines with a neat pointed collar to keep you looking sharp. "
+      "description": "The flattering single-breasted shape has a three-button closure and combines with a neat pointed collar to keep you looking sharp. ",
+      "color": "blue"
     },
     {
       "id": 9,
       "title": "Herringbone Wool Overcoat - Grey",
-      "price": "£199.95",
+      "price": 199.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dwcaf72333/hi-res/OUF0074GRY_MODEL_FRONT.jpg?sw=430&sh=540",
       "category": "casual coat",
-      "description": "The flattering single-breasted shape has a three-button closure and combines with a neat pointed collar to keep you looking sharp. "
+      "description": "The flattering single-breasted shape has a three-button closure and combines with a neat pointed collar to keep you looking sharp. ",
+      "color": "green"
     },
     {
       "id": 10,
       "title": "Cotton Stretch Jacket - Olive Green",
-      "price": "£179.95",
+      "price": 179.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dwa9d383c2/hi-res/SEU0098OLV_MODEL_FRONT.jpg?sw=430&sh=540",
       "category": "casual coat",
-      "description": "Our cotton stretch jacket is the consummate smart-casual piece – think expert tailoring with a laid-back aesthetic."
+      "description": "Our cotton stretch jacket is the consummate smart-casual piece – think expert tailoring with a laid-back aesthetic.",
+      "color": "cream"
     },
     {
       "id": 11,
       "title": "Non-Iron Royal Oxford Shirt - Ocean Blue",
-      "price": "£59.95",
+      "price": 59.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw939c63b7/hi-res/FON0219BLU_DETAIL_COLLAR.jpg?sw=600&sh=750",
       "category": "shirts",
-      "description": "The ocean blue hue of this Royal Oxford shirt will bring a splash of colour to your outfit."
+      "description": "The ocean blue hue of this Royal Oxford shirt will bring a splash of colour to your outfit.",
+      "color": "blue"
     },
     {
       "id": 12,
       "title": "Non-Iron Twill Mini Grid Check Shirt - Cornflower Blue",
-      "price": "£59.95",
+      "price": 59.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw62e7d90a/hi-res/FON0740SKY_MODEL_FULL.jpg?sw=60&sh=80",
       "category": "shirts",
-      "description": "A customer favourite design, this shirt was created to add variety to your daily wardrobe. The fabric is a grid check, an easy-to-wear style in 100% cotton. A non-iron finish means you can wash, hang, and wear it with minimal fuss."
+      "description": "A customer favourite design, this shirt was created to add variety to your daily wardrobe. The fabric is a grid check, an easy-to-wear style in 100% cotton. A non-iron finish means you can wash, hang, and wear it with minimal fuss.",
+      "color": "green"
     },
     {
       "id": 13,
       "title": "Smart Jersey Polo - Navy",
-      "price": "£59.95",
+      "price": 59.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw36ab01e8/hi-res/JEP0317NAV_MODEL_FRONT.jpg?sw=60&sh=80",
       "category": "shirts",
-      "description": "This polo shirt is your wardrobe's link between smart and casual."
+      "description": "This polo shirt is your wardrobe's link between smart and casual.",
+      "color": "cream"
     },
     {
       "id": 14,
       "title": "Button-Down Collar Non-Iron Stretch Poplin Fine Check Shirt - Royal Blue",
-      "price": "£59.95",
+      "price": 59.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw286fdbfa/hi-res/CSN0378RYL_COLLAR_DETAIL.jpg?sw=600&sh=750",
       "category": "shirts",
-      "description": "Meet the stretch-cotton shirt that does it all – no ironing required. Client meeting? No problem. Dinner plans? Easy."
+      "description": "Meet the stretch-cotton shirt that does it all – no ironing required. Client meeting? No problem. Dinner plans? Easy.",
+      "color": "green"
     },
     {
       "id": 15,
       "title": "Non-Iron Twill Grid Check Shirt - Cobalt Blue",
-      "price": "£59.95",
+      "price": 59.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dwa25f057a/hi-res/FON0413RYL_COLLAR_DETAIL.jpg?sw=600&sh=750",
       "category": "shirts",
-      "description": "Versatile and eye-catching, our grid-checked shirt is a firm favourite with our customers."
+      "description": "Versatile and eye-catching, our grid-checked shirt is a firm favourite with our customers.",
+      "color": "black"
     },
     {
       "id": 16,
       "title": "Smart Long Sleeve Jersey Polo - Olive Green",
-      "price": "£64.95",
+      "price": 64.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw52115c1f/hi-res/JEP0326OLV_MODEL_FRONT.jpg?sw=430&sh=540",
       "category": "shirts",
-      "description": "This is the most refined polo your wardrobe has ever seen. Add it to your arsenal for an easy smart-casual look."
+      "description": "This is the most refined polo your wardrobe has ever seen. Add it to your arsenal for an easy smart-casual look.",
+      "color": "blue"
     },
     {
       "id": 17,
       "title": "Pure Linen Short Sleeve Shirt - Cobalt Blue",
-      "price": "£69.95",
+      "price": 69.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw2cf800ca/CSR2056COB_MODEL_UNTUCKED.jpg?sw=60&sh=80",
       "category": "shirts",
-      "description": "This 100% linen shirt will keep you fresh and comfortable, even on the hottest days."
+      "description": "This 100% linen shirt will keep you fresh and comfortable, even on the hottest days.",
+      "color": "green"
     },
     {
       "id": 18,
       "title": "Semi-Cutaway Collar Twill Shirt with Printed Trim - White",
-      "price": "£59.95",
+      "price": 59.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw4c66f787/hi-res/FOB0640WHT_MODEL_FULL.jpg?sw=60&sh=80",
       "category": "shirts",
-      "description": "Smart doesn't have to mean traditional, as our printed-trim twill shirt proves. It's all in the (hidden) details."
+      "description": "Smart doesn't have to mean traditional, as our printed-trim twill shirt proves. It's all in the (hidden) details.",
+      "color": "brown"
     },
     {
       "id": 19,
       "title": "Pure Linen Shirt - Cobalt Blue",
-      "price": "£69.95",
+      "price": 69.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dwa55a121f/hi-res/CSR0968COB_MODEL_TUCKED.jpg?sw=430&sh=540",
       "category": "shirts",
-      "description": "This smart poplin weave shirt will keep you fresh and comfortable, even when things heat up in the boardroom."
+      "description": "This smart poplin weave shirt will keep you fresh and comfortable, even when things heat up in the boardroom.",
+      "color": "cream"
     },
     {
       "id": 20,
       "title": "Ultimate Performance Suit - Dark Navy",
-      "price": "£349.95",
+      "price": 349.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw85dfc727/hi-res/SUT44DNY_MODEL_FRONT.jpg?sw=430&sh=540",
       "category": "suits",
-      "description": "Our Ultimate suit is a bestseller for a reason – it looks good wherever you are in the world."
+      "description": "Our Ultimate suit is a bestseller for a reason – it looks good wherever you are in the world.",
+      "color": "blue"
     },
     {
       "id": 21,
       "title": "Peak Lapel Dinner Suit - Black ",
-      "price": "£399.95",
+      "price": 399.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dwd4e0dc0b/SUD0033BLK_MODEL_FULL.jpg?sw=430&sh=540",
       "category": "suits",
-      "description": "Crafted from the finest fabrics with traditional detailing – it can only be our sophisticated dinner suit."
+      "description": "Crafted from the finest fabrics with traditional detailing – it can only be our sophisticated dinner suit.",
+      "color": "green"
     },
     {
       "id": 22,
       "title": "British Luxury Suit - Charcoal Grey",
-      "price": "£499.95",
+      "price": 499.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dwb901af56/SUL0365CHA_MODEL_FULL.jpg?sw=600&sh=750",
       "category": "suits",
-      "description": "Crafted from pure Merino cloth woven at a renowned Yorkshire mill, the suit has a soft finish that ensures comfort throughout the day."
+      "description": "Crafted from pure Merino cloth woven at a renowned Yorkshire mill, the suit has a soft finish that ensures comfort throughout the day.",
+      "color": "cream"
     },
     {
       "id": 23,
       "title": "Sharkskin Suit - Light Grey",
-      "price": "£399.95",
+      "price": 399.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw69611552/SUT0276LGY_WAISTCOAT_ALT2.jpg?sw=600&sh=750",
       "category": "suits",
-      "description": "Channel the Rat Pack vibe in our modern take on the classic sharkskin suit, with an updated fit and sharp detailing."
+      "description": "Channel the Rat Pack vibe in our modern take on the classic sharkskin suit, with an updated fit and sharp detailing.",
+      "color": "black"
     },
     {
       "id": 24,
       "title": "Morning Suit - Black ",
-      "price": "£399.95",
+      "price": 399.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw89690e34/hi-res/SUW01BLK_MODEL_FRONT_ALT.jpg?sw=600&sh=750",
       "category": "suits",
-      "description": "Tyrwhitt morning suits are styled to be timeless. This tailcoat is pure wool herringbone, woven in Yorkshire-based Marton Mills; cut to a traditional shape,it is single-breasted with a one-button fastening, and has a canvas chest piece construction for excellent fit. It is fully lined in viscose satin for a luxurious feel."
+      "description": "Tyrwhitt morning suits are styled to be timeless. This tailcoat is pure wool herringbone, woven in Yorkshire-based Marton Mills; cut to a traditional shape,it is single-breasted with a one-button fastening, and has a canvas chest piece construction for excellent fit. It is fully lined in viscose satin for a luxurious feel.",
+      "color": "cream"
     },
     {
       "id": 25,
       "title": "British Luxury Stripe Suit - Charcoal Grey",
-      "price": "£499.95",
+      "price": 499.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dwa7b77de6/hi-res/SUL0368CHA_MODEL_FULL.jpg?sw=600&sh=750",
       "category": "suits",
-      "description": "Crafted from pure Merino cloth woven at a renowned Yorkshire mill, the suit has a soft finish that ensures comfort throughout the day."
+      "description": "Crafted from pure Merino cloth woven at a renowned Yorkshire mill, the suit has a soft finish that ensures comfort throughout the day.",
+      "color": "brown"
     },
     {
       "id": 26,
       "title": "Italian Luxury Suit - Dark Navy",
-      "price": "£499.95",
+      "price": 499.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw19a7961c/hi-res/SUL35DNY_MODEL_FRONT.jpg?sw=600&sh=750",
       "category": "suits",
-      "description": "Add Italian flair to your everyday repertoire – and experience first-class craftsmanship – with this fully lined suit."
+      "description": "Add Italian flair to your everyday repertoire – and experience first-class craftsmanship – with this fully lined suit.",
+      "color": "green"
     },
     {
       "id": 27,
       "title": "Ultimate Non-Iron Chinos - Tan",
-      "price": "£79.95",
+      "price": 79.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw33efa430/hi-res/TRC0270TAN_MODEL_FULL_FRONT.jpg?sw=600&sh=750",
       "category": "trouser",
-      "description": "Busy day ahead? Get up and out in double-quick time with our non-iron chinos. Simply wash and hang, then wear and go."
+      "description": "Busy day ahead? Get up and out in double-quick time with our non-iron chinos. Simply wash and hang, then wear and go.",
+      "color": "brown"
     },
     {
       "id": 28,
       "title": "Ultimate Non-Iron Chinos - Dark Grey",
-      "price": "£79.95",
+      "price": 79.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw1b42c550/hi-res/TRC0270DGY_MODEL_FULL_FRONT.jpg?sw=600&sh=750",
       "category": "trouser",
-      "description": "What makes something iconic? When it comes to clothing, we believe it's the fit, shape, feel and craftsmanship."
+      "description": "What makes something iconic? When it comes to clothing, we believe it's the fit, shape, feel and craftsmanship.",
+      "color": "grey"
     },
     {
       "id": 29,
       "title": "Ultimate Non-Iron Chinos - Mocha",
-      "price": "£79.95",
+      "price": 79.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw33a0c4d2/hi-res/TRC0274MCA_MODEL_FULL_FRONT_ALT.jpg?sw=600&sh=750",
       "category": "trouser",
-      "description": "Busy day ahead? Get up and out in double-quick time with our non-iron chinos. Simply wash and hang, then wear and go."
+      "description": "Busy day ahead? Get up and out in double-quick time with our non-iron chinos. Simply wash and hang, then wear and go.",
+      "color": "black"
     },
     {
       "id": 30,
       "title": "Ultimate Non-Iron Chinos - Royal Blue",
-      "price": "£79.95",
+      "price": 79.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dwec806c78/hi-res/TRC0277RYL_MODEL_FULL_FRONT.jpg?sw=600&sh=750",
       "category": "trouser",
-      "description": "Busy day ahead? Get up and out in double-quick time with our non-iron chinos. Simply wash and hang, then wear and go."
+      "description": "Busy day ahead? Get up and out in double-quick time with our non-iron chinos. Simply wash and hang, then wear and go.",
+      "color": "cream"
     },
     {
       "id": 31,
       "title": "Natural Stretch Twill Suit Trousers - Navy",
-      "price": "£100",
+      "price": 100,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dwd415e87f/hi-res/SUB0507NAV_TROUSER_FRONT.jpg?sw=430&sh=540",
       "category": "trouser",
-      "description": "Natural stretch doesn't mean compromising on quality. Our twill suit is crafted from Super 100s Merino for durability."
+      "description": "Natural stretch doesn't mean compromising on quality. Our twill suit is crafted from Super 100s Merino for durability.",
+      "color": "blue"
     },
     {
       "id": 32,
       "title": "Ultimate Non-Iron Chinos - Petrol Blue",
-      "price": "£79.95",
+      "price": 79.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw80d422b6/hi-res/TRC0277PET_MODEL_FULL_FRONT.jpg?sw=600&sh=750",
       "category": "trouser",
-      "description": "Busy day ahead? Get up and out in double-quick time with our non-iron chinos. Simply wash and hang, then wear and go."
+      "description": "Busy day ahead? Get up and out in double-quick time with our non-iron chinos. Simply wash and hang, then wear and go.",
+      "color": "green"
     },
     {
       "id": 33,
       "title": "Ultimate Non-Iron Chinos - Light Grey",
-      "price": "£79.95",
+      "price": 79.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dwee052d0c/hi-res/TRC0274LGY_MODEL_FULL_FRONT.jpg?sw=600&sh=750",
       "category": "trouser",
-      "description": "Busy day ahead? Get up and out in double-quick time with our non-iron chinos. Simply wash and hang, then wear and go."
+      "description": "Busy day ahead? Get up and out in double-quick time with our non-iron chinos. Simply wash and hang, then wear and go.",
+      "color": "brown"
     },
     {
       "id": 34,
       "title": "Ultimate Non-Iron Chinos - Dark Green",
-      "price": "£79.95",
+      "price": 79.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw27c038d9/hi-res/TRC0277DGN_MODEL_FULL_FRONT.jpg?sw=600&sh=750",
       "category": "trouser",
-      "description": "Busy day ahead? Get up and out in double-quick time with our non-iron chinos. Simply wash and hang, then wear and go."
+      "description": "Busy day ahead? Get up and out in double-quick time with our non-iron chinos. Simply wash and hang, then wear and go.",
+      "color": "black"
     },
     {
       "id": 35,
       "title": "Washed Texture 5 Pocket Trousers - Navy",
-      "price": "£79.95",
+      "price": 79.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dwe6506305/TRJ0029NAV_MODEL_FULL_FRONT.jpg?sw=600&sh=750",
       "category": "trouser",
-      "description": "Stylish and comfortable? Our classic 5-pocket trousers tick both boxes."
+      "description": "Stylish and comfortable? Our classic 5-pocket trousers tick both boxes.",
+      "color": "green"
     },
     {
       "id": 36,
       "title": "Ultimate Non-Iron Chinos - Toffee",
-      "price": "£79.95",
+      "price": 79.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw149e21c2/hi-res/TRC0277TFE_MODEL_FULL_FRONT.jpg?sw=600&sh=750",
       "category": "trouser",
-      "description": "Busy day ahead? Get up and out in double-quick time with our non-iron chinos. Simply wash and hang, then wear and go."
+      "description": "Busy day ahead? Get up and out in double-quick time with our non-iron chinos. Simply wash and hang, then wear and go.",
+      "color": "cream"
     },
     {
       "id": 37,
       "title": "Pure Merino Zip Neck Jumper - Dark Pink",
-      "price": "£69.95",
+      "price": 69.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dwafd413d3/hi-res/KNJ0438DPK_COLLAR_DETAIL.jpg?sw=600&sh=750",
       "category": "knitwear",
-      "description": "This refined-yet-casual zip neck is crafted from pure, Woolmark-certified Merino wool. Known as nature's performance fabric, Merino is comfortably breathable and temperature regulating - and has the softest handle of any knitwear. We've gently washed it for an even silkier finish, resulting in a supple jumper that subtly moulds itself to your body. The styling is simple, letting the fine fibres take centre stage. There's traditional ribbing on the cuffs and hem and the understated neckline means this jumper looks superb when worn with a button-down shirt."
+      "description": "This refined-yet-casual zip neck is crafted from pure, Woolmark-certified Merino wool. Known as nature's performance fabric, Merino is comfortably breathable and temperature regulating - and has the softest handle of any knitwear. We've gently washed it for an even silkier finish, resulting in a supple jumper that subtly moulds itself to your body. The styling is simple, letting the fine fibres take centre stage. There's traditional ribbing on the cuffs and hem and the understated neckline means this jumper looks superb when worn with a button-down shirt.",
+      "color": "grey"
     },
     {
       "id": 38,
       "title": "Merino Polo Neck Jumper - Burgundy Red",
-      "price": "£69.95",
+      "price": 69.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw1f076315/hi-res/KNJ0394BGD_MODEL_FRONT.jpg?sw=60&sh=80",
       "category": "knitwear",
-      "description": "Our Woolmark-certified merino knit is luxuriously warm and breathable, thanks to a super-hardy breed of sheep."
+      "description": "Our Woolmark-certified merino knit is luxuriously warm and breathable, thanks to a super-hardy breed of sheep.",
+      "color": "blue"
     },
     {
       "id": 39,
       "title": "Merino Crew Neck Striped Jumper - Navy & Stone",
-      "price": "£69.95",
+      "price": 69.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dwfa6b8735/hi-res/KNJ0430MNV_MODEL_FRONT.jpg?sw=60&sh=80",
       "category": "knitwear",
-      "description": "Our Woolmark-certified merino knit is luxuriously warm and breathable, thanks to a super-hardy breed of sheep."
+      "description": "Our Woolmark-certified merino knit is luxuriously warm and breathable, thanks to a super-hardy breed of sheep.",
+      "color": "black"
     },
     {
       "id": 40,
       "title": "Merino Short Sleeve Polo Jumper - Navy",
-      "price": "£69.95",
+      "price": 69.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw8e67b406/hi-res/KNJ0420NAV_MODEL_FRONT.jpg?sw=60&sh=80",
       "category": "knitwear",
-      "description": "For a winter layer that really delivers on warmth, look no further than our pure Merino short-sleeved polo."
+      "description": "For a winter layer that really delivers on warmth, look no further than our pure Merino short-sleeved polo.",
+      "color": "green"
     },
     {
       "id": 41,
       "title": "Merino Cashmere Crew Neck Jumper - Pale Teal Green",
-      "price": "£129.95",
+      "price": 129.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw7507cb6c/hi-res/KNJ0365PTG_MODEL_FRONT.jpg?sw=60&sh=80",
       "category": "knitwear",
-      "description": "Merino and cashmere: a match made in sartorial heaven, creating a refined, breathable and astonishingly soft knit. "
+      "description": "Merino and cashmere: a match made in sartorial heaven, creating a refined, breathable and astonishingly soft knit. ",
+      "color": "cream"
     },
     {
       "id": 42,
       "title": "Merino Zip Neck Jumper - Limestone",
-      "price": "£69.95",
+      "price": 69.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw379b2ace/hi-res/KNJ0432LST_MODEL_FRONT.jpg?sw=60&sh=80",
       "category": "knitwear",
-      "description": "Our Woolmark-certified merino knit is luxuriously warm and breathable, thanks to a super-hardy breed of sheep."
+      "description": "Our Woolmark-certified merino knit is luxuriously warm and breathable, thanks to a super-hardy breed of sheep.",
+      "color": "brown"
     },
     {
       "id": 43,
       "title": "Merino V-Neck Jumper - Oatmeal",
-      "price": "£69.95",
+      "price": 69.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw66277298/hi-res/KNJ0400CAM_MODEL_FRONT.jpg?sw=60&sh=80",
       "category": "knitwear",
-      "description": "This refined-yet-casual V-neck is crafted from pure, Woolmark-certified Merino wool."
+      "description": "This refined-yet-casual V-neck is crafted from pure, Woolmark-certified Merino wool.",
+      "color": "green"
     },
     {
       "id": 44,
       "title": "Merino Cashmere Crew Neck Jumper - Navy",
-      "price": "£129.95",
+      "price": 129.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dwc8901ef1/hi-res/KNJ0365NAV_MODEL_FRONT.jpg?sw=60&sh=80",
       "category": "knitwear",
-      "description": "This jumper is made from 90% extra fine merino wool and 10% cashmere in a jersey knit, the cashmere adding a dash of luxury and incredible softness to the hard-wearing merino."
+      "description": "This jumper is made from 90% extra fine merino wool and 10% cashmere in a jersey knit, the cashmere adding a dash of luxury and incredible softness to the hard-wearing merino.",
+      "color": "brown"
     },
     {
       "id": 45,
       "title": "Merino Polo Neck Jumper - Burgundy Red",
-      "price": "£69.95",
+      "price": 69.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw1f076315/hi-res/KNJ0394BGD_MODEL_FRONT.jpg?sw=60&sh=80",
       "category": "knitwear",
-      "description": "Our Woolmark-certified merino knit is luxuriously warm and breathable, thanks to a super-hardy breed of sheep."
+      "description": "Our Woolmark-certified merino knit is luxuriously warm and breathable, thanks to a super-hardy breed of sheep.",
+      "color": "brown"
     },
     {
       "id": 46,
       "title": "Suede Brogue Trainers - Tobacco Brown",
-      "price": "£119.95",
+      "price": 119.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw5a420e5f/SHW0250TBR_L.jpg?sw=430&sh=540",
       "category": "shoes",
-      "description": "Durable and comfortable – plus adding style points to your weekend looks. It could only be the Tyrwhitt trainers."
+      "description": "Durable and comfortable – plus adding style points to your weekend looks. It could only be the Tyrwhitt trainers.",
+      "color": "black"
     },
     {
       "id": 47,
       "title": "Leather Oxford Shoes - Black",
-      "price": "£149.95",
+      "price": 149.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw9f360722/SHC0246BLK_L.jpg?sw=430&sh=540",
       "category": "shoes",
-      "description": "Looking for serious sophistication? You can stop your search. Our Oxford shoes are ready for anything."
+      "description": "Looking for serious sophistication? You can stop your search. Our Oxford shoes are ready for anything.",
+      "color": "green"
     },
     {
       "id": 48,
       "title": "Made in England High-Shine Leather Oxford Shoes - Black",
-      "price": "£229.95",
+      "price": 229.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dweb09a1d2/SHL0209BLK_L.jpg?sw=430&sh=540",
       "category": "shoes",
-      "description": "You’ve picked out your suit, chosen your accessories – now all you need is some classic Oxford shoes to finish your look."
+      "description": "You’ve picked out your suit, chosen your accessories – now all you need is some classic Oxford shoes to finish your look.",
+      "color": "grey"
     },
     {
       "id": 49,
       "title": "Leather Trainers - Black",
-      "price": "£119.95",
+      "price": 119.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw2c5b0208/SHW0246BLK_L.jpg?sw=430&sh=540",
       "category": "shoes",
-      "description": "Durable and comfortable – plus adding style points to your weekend looks. It could only be the Tyrwhitt trainers."
+      "description": "Durable and comfortable – plus adding style points to your weekend looks. It could only be the Tyrwhitt trainers.",
+      "color": "brown"
     },
     {
       "id": 50,
       "title": "Made in England High-Shine Leather Oxford Shoes - Dark Tan",
-      "price": "£229.95",
+      "price": 229.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dwf09da0a8/SHL0209DTN_L.jpg?sw=430&sh=540",
       "category": "shoes",
-      "description": "Our Oxford shoes have all of the features of the much-loved traditional design, while keeping your comfort in mind. Crafted in England, the style is made from quality calf leather with a Goodyear welted construction for a breathable and long-lasting finish. Inside, we've added flexible leather insoles to put a spring in your step and EVA foam filler to mould to your feet. There's also a half-leather insock, which provides extra support with each step."
+      "description": "Our Oxford shoes have all of the features of the much-loved traditional design, while keeping your comfort in mind. Crafted in England, the style is made from quality calf leather with a Goodyear welted construction for a breathable and long-lasting finish. Inside, we've added flexible leather insoles to put a spring in your step and EVA foam filler to mould to your feet. There's also a half-leather insock, which provides extra support with each step.",
+      "color": "green"
     },
     {
       "id": 51,
       "title": "Bag for Life",
-      "price": "£2.95",
+      "price": 2.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw4d06bb5f/hi-res/ACW0003NAV_SIDE.jpg?sw=430&sh=540",
       "category": "accessories",
-      "description": "Whatever your day has in store, our bag for life has got your back. Just pop all your essentials inside and you're good to go."
+      "description": "Whatever your day has in store, our bag for life has got your back. Just pop all your essentials inside and you're good to go.",
+      "color": "black"
     },
     {
       "id": 52,
       "title": "Stain Resistant Silk Tie - Grey",
-      "price": "£34.95",
+      "price": 34.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dwd8f97ff1/hi-res/TIC2020GRY_ROLLED.jpg?sw=600&sh=750",
       "category": "accessories",
-      "description": "Yes, you did just see silk and stain-resistant in the same sentence – this tie has a very clever finish…"
+      "description": "Yes, you did just see silk and stain-resistant in the same sentence – this tie has a very clever finish…",
+      "color": "cream"
     },
     {
       "id": 53,
       "title": "Spot Silk Pocket Square - Light Green",
-      "price": "£19.95",
+      "price": 19.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dwd42d72ed/hi-res/TIP0279LGN_MAIN.jpg?sw=600&sh=750",
       "category": "accessories",
-      "description": "A refined way to add a pop of colour to your suit."
+      "description": "A refined way to add a pop of colour to your suit.",
+      "color": "cream"
     },
     {
       "id": 54,
       "title": "Patterned Enamel Cufflinks - Navy",
-      "price": "£39.95",
+      "price": 39.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dwd27af0be/hi-res/ACL0034NAV_MAIN.jpg?sw=430&sh=540",
       "category": "accessories",
-      "description": "Wondering what the finishing touch should be? Maybe you're missing a link. Take a look at our exclusive enamel cufflinks"
-    },
-    {
-      "id": 54,
-      "title": "A Little Bird Told Me Motif Socks - Teal Green",
-      "price": "£10.95",
-      "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw9785d562/hi-res/ACK0375TEL_FULL.jpg?sw=600&sh=750",
-      "category": "accessories",
-      "description": "Your new go-to-every-day socks are here, crafted from superior cotton for breathability and a softer feel. "
+      "description": "Wondering what the finishing touch should be? Maybe you're missing a link. Take a look at our exclusive enamel cufflinks",
+      "color": "green"
     },
     {
       "id": 55,
-      "title": "3 Pack Patterned Cotton Stretch Jersey Trunks - Light Grey",
-      "price": "£29.95",
+      "title": "A Little Bird Told Me Motif Socks",
+      "price": 10.95,
+      "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw9785d562/hi-res/ACK0375TEL_FULL.jpg?sw=600&sh=750",
+      "category": "accessories",
+      "description": "Your new go-to-every-day socks are here, crafted from superior cotton for breathability and a softer feel. ",
+      "color": "blue"
+    },
+    {
+      "id": 56,
+      "title": "3 Pack Patterned Cotton Stretch Jersey Trunks",
+      "price": 29.95,
       "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw397d95ab/hi-res/ACU0200LGY_DETAIL.jpg?sw=430&sh=540",
       "category": "accessories",
-      "description": "This multipack contains three pairs of cotton-stretch jersey underwear. Made with high quality cotton fibres and boasting a super soft feel, they are supportive, soft on the skin, and have an elasticated waistband for comfort."
+      "description": "This multipack contains three pairs of cotton-stretch jersey underwear. Made with high quality cotton fibres and boasting a super soft feel, they are supportive, soft on the skin, and have an elasticated waistband for comfort.",
+      "color": "black"
     }
   ],
   "register": [
@@ -470,6 +526,76 @@
       "email": "rano@gmail.com",
       "password": "4321",
       "id": 3
+    },
+    {
+      "firstName": "yogita",
+      "lastName": "madan",
+      "email": "yogita@gmail.com",
+      "password": "yogita@123",
+      "confirmPassword": "yogita@123",
+      "id": 4
+    },
+    {
+      "firstName": "sonu",
+      "lastName": "nick",
+      "email": "sonu@gmail.com",
+      "password": "sonu@123",
+      "confirmPassword": "sonu@123",
+      "id": 5
+    },
+    {
+      "firstName": "Alia",
+      "lastName": "Bhatt",
+      "email": "alia@gmail.com",
+      "password": "alia@123",
+      "confirmPassword": "alia@123",
+      "id": 6
+    },
+    {
+      "firstName": "Alia",
+      "lastName": "Bhatt",
+      "email": "alia@gmail.com",
+      "password": "alia@123",
+      "confirmPassword": "alia@123",
+      "id": 7
+    },
+    {
+      "firstName": "Akshay",
+      "lastName": "Kumar",
+      "email": "akshay@gmail.com",
+      "password": "akshay@123",
+      "confirmPassword": "akshay@123",
+      "id": 8
+    },
+    {
+      "firstName": "Stebin",
+      "lastName": "Bean",
+      "email": "stebin@gmail.com",
+      "password": "stebin@123",
+      "confirmPassword": "stebin@123",
+      "id": 9
+    }
+  ],
+  "cart": [
+    {
+      "id": 55,
+      "title": "3 Pack Patterned Cotton Stretch Jersey Trunks",
+      "price": 29.95,
+      "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw397d95ab/hi-res/ACU0200LGY_DETAIL.jpg?sw=430&sh=540",
+      "category": "accessories",
+      "description": "This multipack contains three pairs of cotton-stretch jersey underwear. Made with high quality cotton fibres and boasting a super soft feel, they are supportive, soft on the skin, and have an elasticated waistband for comfort.",
+      "color": "black",
+      "quantity": 1
+    },
+    {
+      "id": 21,
+      "title": "Peak Lapel Dinner Suit - Black ",
+      "price": 399.95,
+      "image": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dwd4e0dc0b/SUD0033BLK_MODEL_FULL.jpg?sw=430&sh=540",
+      "category": "suits",
+      "description": "Crafted from the finest fabrics with traditional detailing – it can only be our sophisticated dinner suit.",
+      "color": "green",
+      "quantity": 1
     }
   ]
 }
