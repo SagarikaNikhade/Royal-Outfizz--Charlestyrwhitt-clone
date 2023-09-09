@@ -59,10 +59,10 @@ function Product() {
 
   const getData = (order="asc") =>{
     dispatch({type :"fetch_request"});
-    axios(`http://localhost:8080/cloths?_sort=price&_order=${order}`)
+    axios(`https://wide-eyed-colt-capris.cyclic.cloud/cloths?_sort=price&_order=${order}`)
     .then((res)=>{ 
       dispatch({type: "fetch_success" , payload:res.data})
-      console.log(res.data)
+      // console.log(res.data)
     })
     .catch((err)=>{
       dispatch({type: "fetch_failure" , payload:err.message})
@@ -72,7 +72,7 @@ function Product() {
   useEffect(()=>{
     dispatch({type :"fetch_request"});
     if(color){
-      axios(`http://localhost:8080/cloths?color=${color}`)
+      axios(`https://wide-eyed-colt-capris.cyclic.cloud/cloths?color=${color}`)
       .then((res)=>{ 
         dispatch({type: "fetch_success" , payload:res.data})
         console.log(res.data)
@@ -88,7 +88,7 @@ function Product() {
   useEffect(()=>{
     dispatch({type :"fetch_request"});
     if(category){
-      axios(`http://localhost:8080/cloths?category=${category}`)
+      axios(`https://wide-eyed-colt-capris.cyclic.cloud/cloths?category=${category}`)
       .then((res)=>{ 
         dispatch({type: "fetch_success" , payload:res.data})
         console.log(res.data)

@@ -11,7 +11,7 @@ const Login = () => {
   const handleClick = () => setShow(!show)
 
   const handleLogin = () =>{
-        axios.get("http://localhost:8080/register")
+        axios.get("https://wide-eyed-colt-capris.cyclic.cloud/register")
         .then((res) => {
           const userData = res.data;
           const matchingUserData = userData.find(user => user.email === email && user.password === password);

@@ -32,7 +32,7 @@ const Bag = () => {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:8080/cart`)
+      .get(`https://wide-eyed-colt-capris.cyclic.cloud/cart`)
       .then((res) => {
         setCartItems(res.data);
       })
@@ -47,21 +47,6 @@ const Bag = () => {
         : item
     );
     setCartItems(updatedCartItems);
-  
-    // Then, make an API request to update the backend
-    const apiUrl = `http://localhost:8080/cart/${itemId}`;
-  
-    axios
-      .patch(apiUrl)
-      .then((response) => {
-        const updatedItem = response.data;
-        // You can choose to update the local state again with the response if needed.
-        // setCartItems(updatedCartItems);
-        console.log('Item quantity incremented successfully:', updatedItem);
-      })
-      .catch((error) => {
-        console.error('Error incrementing item quantity:', error);
-      });
   };
 
   const decrementQuantity = (itemId) => {
@@ -84,7 +69,7 @@ const Bag = () => {
   };
 
   const removeItem = (itemId) => {
-    axios.delete(`http://localhost:8080/cart/${itemId}`)
+    axios.delete(`https://wide-eyed-colt-capris.cyclic.cloud/cart/${itemId}`)
     .then((response) => {
       console.log('Item deleted successfully:', response.data);
       setCartItems(response.data)

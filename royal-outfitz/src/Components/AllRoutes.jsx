@@ -13,10 +13,10 @@ function AllRoutes(){
         <Route path="/" element={<Home/>}></Route>
         <Route path="/bag" element={<Bag/>}></Route>
         <Route path="/login" element={<Login/>}></Route>
-        <Route path="*" element={<NotFound/>}></Route>
         <Route path="/register" element={<Register/>}></Route>
         <Route path="/product" element={<Product/>}></Route>
         <Route path="/SingleProduct/:id" element={<SingleProduct/>}></Route>
+        <Route path="*" element={<NotFound/>}></Route>
     </Routes>
   ) 
 }

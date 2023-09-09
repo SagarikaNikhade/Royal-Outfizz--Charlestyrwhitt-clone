@@ -9,9 +9,10 @@ function SingleProduct() {
   const toast = useToast();
   const { id } = useParams();
 
-  useEffect(async()=>{
+  useEffect( ()=>{
+    async function fetchData() {
     try {
-          const response = await fetch(`http://localhost:8080/cloths/${id}`);
+          const response = await fetch(`https://wide-eyed-colt-capris.cyclic.cloud/cloths/${id}`);
           if (response.ok) {
             const data = await response.json();
             setItem(data);
@@ -22,14 +23,15 @@ function SingleProduct() {
         } catch (error) {
           console.error('Error fetching item details:', error);
         }
-  },[id])
+      }
+      fetchData()
+  },[])
 
   // Function to handle adding the item to the cart
   const addToCart = async () => {
-    
-  
+
     try {
-      const response = await fetch('http://localhost:8080/cart', {
+      const response = await fetch('https://wide-eyed-colt-capris.cyclic.cloud/cart', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

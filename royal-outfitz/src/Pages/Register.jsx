@@ -15,7 +15,7 @@ function Register() {
     
       const handleSubmit = (e) =>{
         e.preventDefault();
-        axios.post(`http://localhost:8080/register`,{
+        axios.post(`https://wide-eyed-colt-capris.cyclic.cloud/register`,{
           ...formdata,
         }).then((res)=>{
             alert("register successfully!")
